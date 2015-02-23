@@ -12,7 +12,7 @@
     },
     "SLACK_TEAM_NAME": {
       "description": "Your slack team name",
-      "value": "vfkslack"
+      "value": "VFK1_tech"
     },
     "SLACK_TEAM_DESC": {
       "description": "Description of your slack",
@@ -20,7 +20,7 @@
     },
     "SLACK_TOKEN": {
       "description": "Your slack api token. get from https://api.slack.com/web#auth",
-      "value": "xoxp-3695627691-3695627707-3745771632-61a00c"
+      "value": "xoxp-3695627691-3695627707-3807818244-7a9ab8"
     },
     "BACKGROUND_COLOR": {
       "description": "Background color",
