@@ -24,7 +24,7 @@ helpers do
   def invite_request_to_slack
     response = Excon.post(settings.slack_invite_api_url,
                 body: URI.encode_www_form(
-                        token: ENV['xoxp-3695627691-3695627707-3807818244-7a9ab8'],
+                        token: ENV['xoxp-3695627691'],
                         email: @email,
                         set_active: true
                       ),
