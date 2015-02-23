@@ -10,7 +10,7 @@ enable :sessions
 set :bind, '0.0.0.0'
 set :session_secret,          ENV['k']
 set :slack_invite_api_url,    'https://slack.com/api/users.admin.invite'
-set :background_color,        ENV.fetch('BACKGROUND_COLOR', '#00CCFF')
+set :background_color,        ENV.fetch('BACKGROUND_COLOR', '#FDFCFB')
 set :text_color,              ENV.fetch('TEXT_COLOR', '#FDFCFB')
 set :email_background_color,  ENV.fetch('EMAIL_BACKGROUND_COLOR', '#FDFCFB')
 set :email_text_color,        ENV.fetch('EMAIL_TEXT_COLOR', '#737373')
