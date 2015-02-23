@@ -17,7 +17,7 @@ set :email_text_color,        ENV.fetch('EMAIL_TEXT_COLOR', '#737373')
 set :button_color,            ENV.fetch('BUTTON_COLOR', '#F39C12')
 set :button_hover_color,      ENV.fetch('BUTTON_HOVER_COLOR', '#D78D19')
 set :button_text_color,       ENV.fetch('BUTTON_TEXT_COLOR', '#FDFCFB')
-set :team_name,               ENV.fetch('SLACK_TEAM_NAME', 'VFK1_tech')
+set :team_name,               ENV.fetch('SLACK_TEAM_NAME', 'VFK1')
 set :team_desc,               ENV.fetch('SLACK_TEAM_DESC', '자동가입. By Jason Kim')
 
 helpers do
