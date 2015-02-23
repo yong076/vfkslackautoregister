@@ -24,7 +24,7 @@
     },
     "BACKGROUND_COLOR": {
       "description": "Background color",
-      "value": "#34495E",
+      "value": "#FFFF00",
       "required": false
     },
     "TEXT_COLOR": {
