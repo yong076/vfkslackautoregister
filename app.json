@@ -12,7 +12,7 @@
     },
     "SLACK_TEAM_NAME": {
       "description": "Your slack team name",
-      "value": "vfk_slack"
+      "value": "vfkslack"
     },
     "SLACK_TEAM_DESC": {
       "description": "Description of your slack",
