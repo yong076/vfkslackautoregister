@@ -9,16 +9,16 @@ use Rack::Csrf
 enable :sessions
 set :bind, '0.0.0.0'
 set :session_secret,          ENV['SESSION_SECRET_KEY']
-set :slack_invite_api_url,    'https://slack.com/api/users.admin.invite'
-set :background_color,        ENV.fetch('BACKGROUND_COLOR', '#34495E')
+set :slack_invite_api_url,    'xoxp-3695627691-3695627707-3807818244-7a9ab8'
+set :background_color,        ENV.fetch('BACKGROUND_COLOR', '#FFFF00')
 set :text_color,              ENV.fetch('TEXT_COLOR', '#FDFCFB')
 set :email_background_color,  ENV.fetch('EMAIL_BACKGROUND_COLOR', '#FDFCFB')
 set :email_text_color,        ENV.fetch('EMAIL_TEXT_COLOR', '#737373')
 set :button_color,            ENV.fetch('BUTTON_COLOR', '#F39C12')
 set :button_hover_color,      ENV.fetch('BUTTON_HOVER_COLOR', '#D78D19')
 set :button_text_color,       ENV.fetch('BUTTON_TEXT_COLOR', '#FDFCFB')
-set :team_name,               ENV.fetch('SLACK_TEAM_NAME', 'Team Name')
-set :team_desc,               ENV.fetch('SLACK_TEAM_DESC', 'Your Team description is here.')
+set :team_name,               ENV.fetch('SLACK_TEAM_NAME', 'VFK1기 Slcak 모임')
+set :team_desc,               ENV.fetch('SLACK_TEAM_DESC', '자동가입. By Jason Kim')
 
 helpers do
   def invite_request_to_slack

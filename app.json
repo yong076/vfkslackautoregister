@@ -16,7 +16,7 @@
     },
     "SLACK_TEAM_DESC": {
       "description": "Description of your slack",
-      "value": "VFK1기 Slack 자동가입 폼입니다."
+      "value": "VFK1"
     },
     "SLACK_TOKEN": {
       "description": "Your slack api token. get from https://api.slack.com/web#auth",
