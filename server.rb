@@ -8,7 +8,7 @@ use Rack::Csrf
 
 enable :sessions
 set :bind, '0.0.0.0'
-set :session_secret,          ENV['SESSION_SECRET_KEY']
+set :session_secret,          ENV['secret']
 set :slack_invite_api_url,    'https://slack.com/api/users.admin.invite'
 set :background_color,        ENV.fetch('BACKGROUND_COLOR', '#E4D6C8')
 set :text_color,              ENV.fetch('TEXT_COLOR', '#FDFCFB')
@@ -22,7 +22,7 @@ set :team_desc,               ENV.fetch('SLACK_TEAM_DESC', '자동가입. By Jas
 
 helpers do
   def invite_request_to_slack
-    response = Excon.post(settings.slack_invite_api_url,
+    response = Excon.post('https://slack.com/api/users.admin.invite',
                 body: URI.encode_www_form(
                         token: ENV['xoxp-3695627691-3695627707-3810096330-54e56d'],
                         email: @email,
