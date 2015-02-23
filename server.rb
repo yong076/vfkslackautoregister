@@ -8,7 +8,7 @@ use Rack::Csrf
 
 enable :sessions
 set :bind, '0.0.0.0'
-set :session_secret,          ENV['k']
+set :session_secret,          ENV['String']
 set :slack_invite_api_url,    'https://slack.com/api/users.admin.invite'
 set :background_color,        ENV.fetch('BACKGROUND_COLOR', '#FDFCFB')
 set :text_color,              ENV.fetch('TEXT_COLOR', '#FDFCFB')
