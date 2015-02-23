@@ -12,15 +12,15 @@
     },
     "SLACK_TEAM_NAME": {
       "description": "Your slack team name",
-      "value": "Default Team"
+      "value": "VFKONE-AutoSlackRegister"
     },
     "SLACK_TEAM_DESC": {
       "description": "Description of your slack",
-      "value": ""
+      "value": "VFK1기 Slack 자동가입 폼입니다."
     },
     "SLACK_TOKEN": {
       "description": "Your slack api token. get from https://api.slack.com/web#auth",
-      "value": ""
+      "value": "xoxp-3695627691-3695627707-3745771632-61a00c"
     },
     "BACKGROUND_COLOR": {
       "description": "Background color",
